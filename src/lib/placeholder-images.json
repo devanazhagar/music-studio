@@ -1,3 +1,220 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-banner",
+      "description": "A group of music students playing various instruments.",
+      "imageUrl": "https://images.unsplash.com/photo-1517456793572-1d8efd6dc135?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtdXNpYyUyMHN0dWRlbnRzfGVufDB8fHx8MTc1OTMyNzY2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "music students"
+    },
+    {
+      "id": "testimonial-1",
+      "description": "Photo of Priya Sharma.",
+      "imageUrl": "https://images.unsplash.com/photo-1542596594-649edbc13630?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aGFwcHklMjB3b21hbnxlbnwwfHx8fDE3NTkyNzc2MTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy woman"
+    },
+    {
+      "id": "testimonial-2",
+      "description": "Photo of Arjun Mehta.",
+      "imageUrl": "https://images.unsplash.com/photo-1634136906717-6421833e1b7a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzbWlsaW5nJTIwbWFufGVufDB8fHx8MTc1OTI1NDAxMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smiling man"
+    },
+    {
+      "id": "testimonial-3",
+      "description": "Photo of Lakshmi Iyer.",
+      "imageUrl": "https://images.unsplash.com/photo-1557053908-4793c484d06f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc1OTI3NTk3MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "student-performance",
+      "description": "A student performing on stage.",
+      "imageUrl": "https://images.unsplash.com/photo-1507676184212-d03ab07a01bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtdXNpYyUyMHBlcmZvcm1hbmNlfGVufDB8fHx8MTc1OTIzNDQzNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "music performance"
+    },
+    {
+      "id": "teacher-1",
+      "description": "Professional photo of Ramesh Kumar.",
+      "imageUrl": "https://images.unsplash.com/photo-1544168190-79c17527004f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYWxlJTIwdGVhY2hlcnxlbnwwfHx8fDE3NTkyODYwNjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "male teacher"
+    },
+    {
+      "id": "teacher-2",
+      "description": "Professional photo of Anjali Rao.",
+      "imageUrl": "https://images.unsplash.com/photo-1580894732930-0babd100d356?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxmZW1hbGUlMjB0ZWFjaGVyfGVufDB8fHx8MTc1OTI4NjA2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "female teacher"
+    },
+    {
+      "id": "teacher-3",
+      "description": "Professional photo of Vikram Singh.",
+      "imageUrl": "https://images.unsplash.com/photo-1615932094046-144675d9101e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYWxlJTIwbXVzaWNpYW58ZW58MHx8fHwxNzU5MzI3NjY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "male musician"
+    },
+    {
+      "id": "teacher-4",
+      "description": "Professional photo of Sunita Patel.",
+      "imageUrl": "https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHNtaWxpbmd8ZW58MHx8fHwxNzU5MjMzMTk0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman smiling"
+    },
+    {
+      "id": "teacher-5",
+      "description": "Professional photo of David Chen.",
+      "imageUrl": "https://images.unsplash.com/photo-1598176456779-603dd04c9668?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx2aW9saW4lMjB0ZWFjaGVyfGVufDB8fHx8MTc1OTMyNzY2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "violin teacher"
+    },
+    {
+      "id": "teacher-6",
+      "description": "Professional photo of Meera Desai.",
+      "imageUrl": "https://images.unsplash.com/photo-1706381077572-24b367980d20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2b2NhbCUyMGNvYWNofGVufDB8fHx8MTc1OTMyNzY2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vocal coach"
+    },
+    {
+      "id": "gallery-photo-1",
+      "imageUrl": "https://images.unsplash.com/photo-1507838153414-b4b713384a76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtdXNpYyUyMGNsYXNzfGVufDB8fHx8MTc1OTMyMDQ4Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "music class"
+    },
+    {
+      "id": "gallery-photo-2",
+      "imageUrl": "https://images.unsplash.com/photo-1670853782074-e21507b89f25?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxndWl0YXIlMjBsZXNzb258ZW58MHx8fHwxNzU5MjU4Mzg5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "guitar lesson"
+    },
+    {
+      "id": "gallery-photo-3",
+      "imageUrl": "https://images.unsplash.com/photo-1663922736688-b0d82f210671?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGlhbm8lMjBrZXlzfGVufDB8fHx8MTc1OTMyNzY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "piano keys"
+    },
+    {
+      "id": "gallery-photo-4",
+      "imageUrl": "https://images.unsplash.com/photo-1756694916025-9a8d27f4b8b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzdHVkZW50JTIwcmVjaXRhbHxlbnwwfHx8fDE3NTkzMjc2Njh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student recital"
+    },
+    {
+      "id": "gallery-photo-5",
+      "imageUrl": "https://images.unsplash.com/photo-1580625528104-830b09667e42?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkcnVtJTIwc2V0fGVufDB8fHx8MTc1OTMyNzY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "drum set"
+    },
+    {
+      "id": "gallery-photo-6",
+      "imageUrl": "https://images.unsplash.com/photo-1746721562134-56a8f3a1d747?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHx2aW9saW4lMjBwcmFjdGljZXxlbnwwfHx8fDE3NTkzMjc2Njh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "violin practice"
+    },
+    {
+      "id": "gallery-photo-7",
+      "imageUrl": "https://images.unsplash.com/photo-1720186431059-59849a3a8502?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxncm91cCUyMHBlcmZvcm1hbmNlfGVufDB8fHx8MTc1OTMyNzY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "group performance"
+    },
+    {
+      "id": "gallery-photo-8",
+      "imageUrl": "https://images.unsplash.com/photo-1720186576697-24c1496a07e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxjaG9pciUyMHNpbmdpbmd8ZW58MHx8fHwxNzU5MzIzNDczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "choir singing"
+    },
+    {
+      "id": "gallery-photo-9",
+      "imageUrl": "https://images.unsplash.com/photo-1746969750798-bacd1b267bc5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmbHV0ZSUyMHBsYXllcnxlbnwwfHx8fDE3NTkzMjc2Njh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "flute player"
+    },
+    {
+      "id": "gallery-photo-10",
+      "imageUrl": "https://images.unsplash.com/photo-1741980983785-d879e5c4f50c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bXVzaWMlMjBhd2FyZHxlbnwwfHx8fDE3NTkzMjc2Njh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "music award"
+    },
+    {
+      "id": "gallery-photo-11",
+      "imageUrl": "https://images.unsplash.com/photo-1576747249530-46bc7b93ed61?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxtdXNpYyUyMGNvbXBldGl0aW9ufGVufDB8fHx8MTc1OTMyNzY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "music competition"
+    },
+    {
+      "id": "gallery-photo-12",
+      "imageUrl": "https://images.unsplash.com/photo-1484712401471-05c7215830eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aGFwcHklMjBzdHVkZW50c3xlbnwwfHx8fDE3NTkyNTYyNDB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy students"
+    },
+    {
+      "id": "achievement-1",
+      "imageUrl": "https://images.unsplash.com/photo-1730842821749-d0f55aef0389?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtdXNpYyUyMGNlcnRpZmljYXRlfGVufDB8fHx8MTc1OTMyNzY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "music certificate"
+    },
+    {
+      "id": "achievement-2",
+      "imageUrl": "https://images.unsplash.com/photo-1600408942605-e39b013aaaea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxzdHVkZW50JTIwdHJvcGh5fGVufDB8fHx8MTc1OTMyNzY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student trophy"
+    },
+    {
+      "id": "achievement-3",
+      "imageUrl": "https://images.unsplash.com/photo-1659274247836-3736fb2d984a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxhd2FyZCUyMGNlcmVtb255fGVufDB8fHx8MTc1OTI0Njg3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "award ceremony"
+    },
+    {
+      "id": "event-1",
+      "imageUrl": "https://images.unsplash.com/photo-1656401992374-5ce15b9a11fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bXVzaWMlMjBjb25jZXJ0fGVufDB8fHx8MTc1OTMyMTAzMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "music concert"
+    },
+    {
+      "id": "event-2",
+      "imageUrl": "https://images.unsplash.com/photo-1728933102332-a4f1a281a621?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b3Jrc2hvcCUyMGF1ZGllbmNlfGVufDB8fHx8MTc1OTMyNzY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "workshop audience"
+    },
+    {
+      "id": "event-3",
+      "imageUrl": "https://images.unsplash.com/photo-1633643333515-ef3727546bd4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxndWVzdCUyMGxlY3R1cmV8ZW58MHx8fHwxNzU5MzI3NjY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "guest lecture"
+    },
+    {
+      "id": "past-event-1",
+      "imageUrl": "https://images.unsplash.com/photo-1517333941-389292d513d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzdGFnZSUyMHBlcmZvcm1hbmNlfGVufDB8fHx8MTc1OTMyNzY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "stage performance"
+    },
+    {
+      "id": "past-event-2",
+      "imageUrl": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhdWRpZW5jZSUyMGNsYXBwaW5nfGVufDB8fHx8MTc1OTMyNzY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "audience clapping"
+    },
+    {
+      "id": "past-event-3",
+      "imageUrl": "https://images.unsplash.com/photo-1680920772018-b2906206e21e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdHVkZW50JTIwYmFuZHxlbnwwfHx8fDE3NTkzMjc2Njh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "student band"
+    },
+    {
+      "id": "past-event-4",
+      "imageUrl": "https://images.unsplash.com/photo-1612225330812-01a9c6b355ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzb2xvJTIwdmlvbGlufGVufDB8fHx8MTc1OTMyNzY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "solo violin"
+    },
+    {
+      "id": "past-event-5",
+      "imageUrl": "https://images.unsplash.com/photo-1748597603497-2860de84bf11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwaWFubyUyMHJlY2l0YWx8ZW58MHx8fHwxNzU5MzI3NjY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "piano recital"
+    },
+    {
+      "id": "past-event-6",
+      "imageUrl": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxncm91cCUyMHBob3RvfGVufDB8fHx8MTc1OTI4Njc2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "group photo"
+    },
+    {
+      "id": "piano-course",
+      "imageUrl": "https://images.unsplash.com/photo-1663922736688-b0d82f210671?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGlhbm8lMjBrZXlzfGVufDB8fHx8MTc1OTMyNzY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "piano keys"
+    },
+    {
+      "id": "guitar-course",
+      "imageUrl": "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhY291c3RpYyUyMGd1aXRhcnxlbnwwfHx8fDE3NTkyNzgwNzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "acoustic guitar"
+    },
+    {
+      "id": "drums-course",
+      "imageUrl": "https://images.unsplash.com/photo-1608663003920-757dd225d6c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkcnVtJTIwa2l0fGVufDB8fHx8MTc1OTMyNzY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "drum kit"
+    },
+    {
+      "id": "violin-course",
+      "imageUrl": "https://images.unsplash.com/photo-1705784034059-08e6554ba633?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx2aW9saW4lMjBpbnN0cnVtZW50fGVufDB8fHx8MTc1OTMyNzY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "violin instrument"
+    },
+    {
+      "id": "flute-course",
+      "imageUrl": "https://images.unsplash.com/photo-1569791832138-fbdd9a500384?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmbHV0ZSUyMHNpbHZlcnxlbnwwfHx8fDE3NTkzMjc2Njh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "flute silver"
+    },
+    {
+      "id": "vocal-course",
+      "imageUrl": "https://images.unsplash.com/photo-1524621880920-5a6a9a3b239e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtaWNyb3Bob25lJTIwc3RhbmR8ZW58MHx8fHwxNzU5MzI3NjY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "microphone stand"
+    }
+  ]
 }
