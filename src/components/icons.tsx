@@ -6,11 +6,11 @@ export function PianoIcon(props: SVGProps<SVGSVGElement>) {
       <path d="M21 17a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
       <path d="M5 12h14" />
       <path d="M8 7v5" />
-      <path d'M6 7v5' />
-      <path d'M11 7v5' />
-      <path d'M13 7v5' />
-      <path d'M16 7v5' />
-      <path d'M18 7v5' />
+      <path d="M6 7v5" />
+      <path d="M11 7v5" />
+      <path d="M13 7v5" />
+      <path d="M16 7v5" />
+      <path d="M18 7v5" />
     </svg>
   );
 }
@@ -23,7 +23,7 @@ export function GuitarIcon(props: SVGProps<SVGSVGElement>) {
       <path d="m9 18 2.5-2.5" />
       <path d="M9 5l12-2" />
       <path d="M21 16c0 1.1-.9 2-2 2s-2-.9-2-2" />
-      <path d'M3 21a2 2 0 0 0 2 0l1-1a2 2 0 0 0 0-3l-1-1a2 2 0 0 0-3 0l-1 1a2 2 0 0 0 0 3Z' />
+      <path d="M3 21a2 2 0 0 0 2 0l1-1a2 2 0 0 0 0-3l-1-1a2 2 0 0 0-3 0l-1 1a2 2 0 0 0 0 3Z" />
     </svg>
   );
 }
