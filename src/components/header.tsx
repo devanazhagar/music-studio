@@ -34,15 +34,14 @@ export function Header() {
       animate={hidden ? "hidden" : "visible"}
       transition={{ duration: 0.35, ease: "easeInOut" }}
       className={cn(
-        "sticky top-0 z-50 w-full border-b border-transparent",
-        "bg-background/80 backdrop-blur-sm"
+        "sticky top-0 z-50 w-full",
       )}
     >
-      <div className="container mx-auto px-4">
-        <div className="flex h-16 items-center justify-between">
+      <div className="container mx-auto px-4 mt-4">
+        <div className="flex h-16 items-center justify-between rounded-full bg-gray-900 px-6">
           <Link href="/" className="flex items-center gap-2">
             <Music className="h-7 w-7 text-primary" />
-            <span className="font-headline text-xl font-bold text-foreground">
+            <span className="font-headline text-xl font-bold text-white">
               Harmony Hub
             </span>
           </Link>
@@ -52,8 +51,8 @@ export function Header() {
                 key={link.href}
                 href={link.href}
                 className={cn(
-                  "text-sm font-medium transition-colors hover:text-primary",
-                  pathname === link.href ? "text-primary" : "text-muted-foreground"
+                  "text-sm font-medium transition-colors hover:text-white",
+                  pathname === link.href ? "text-white" : "text-gray-400"
                 )}
               >
                 {link.label}
@@ -61,12 +60,9 @@ export function Header() {
             ))}
           </nav>
           <div className="flex items-center gap-4">
-            <a href="tel:+919876543210" className="hidden lg:block text-sm font-medium text-muted-foreground hover:text-primary transition-colors">
-              +91 98765 43210
-            </a>
             <div className="hidden md:block">
               <BookTrialModal>
-                <Button>Book Trial</Button>
+                <Button variant="secondary" className="bg-white text-gray-900 hover:bg-gray-200 rounded-full">Book Trial</Button>
               </BookTrialModal>
             </div>
             <MobileNav />
