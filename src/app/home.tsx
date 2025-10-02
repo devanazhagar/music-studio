@@ -27,6 +27,7 @@ import { InstrumentIcon } from "@/components/instrument-icon";
 import { BookTrialModal } from "@/components/book-trial-modal";
 import { AnimatedWrapper } from "@/components/animated-wrapper";
 import Autoplay from "embla-carousel-autoplay";
+import { cn } from "@/lib/utils";
 
 const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-banner')!;
 const studentPerformanceImage = PlaceHolderImages.find((img) => img.id === 'student-performance')!;
@@ -47,12 +48,32 @@ export default function HomePage() {
   );
 }
 
+function AnimatedInstrumentBoxes() {
+    const instruments = [...INSTRUMENTS, ...INSTRUMENTS]; // Duplicate for seamless loop
+  return (
+    <div className="w-full max-w-4xl mx-auto overflow-hidden relative mb-8">
+      <div className="flex animate-scroll-loop">
+        {instruments.map((instrument, index) => (
+          <div
+            key={index}
+            className="flex-shrink-0 w-24 h-24 mx-4 flex flex-col items-center justify-center bg-card rounded-xl shadow-md"
+          >
+            <InstrumentIcon instrument={instrument.name} className="w-10 h-10 text-primary" />
+          </div>
+        ))}
+      </div>
+       <div className="absolute inset-0 bg-gradient-to-r from-background via-transparent to-background"></div>
+    </div>
+  );
+}
+
 function HeroSection() {
   return (
     <section className="relative pt-16 pb-20 text-center md:pt-24 lg:pt-32">
         <div className="absolute inset-0 dark:bg-hero-pattern-dark bg-hero-pattern -z-10" />
         <div className="container mx-auto px-4">
             <AnimatedWrapper>
+                <AnimatedInstrumentBoxes />
                 <h1 className="font-headline text-4xl font-extrabold tracking-tight text-primary sm:text-5xl md:text-6xl lg:text-7xl">
                     Learn Your Favorite Instrument
                 </h1>
