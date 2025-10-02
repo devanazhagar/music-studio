@@ -57,7 +57,7 @@
     {
       "id": "teacher-5",
       "description": "Professional photo of David Chen.",
-      "imageUrl": "https://images.unsplash.com/photo-1598176456779-603dd04c9668?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx2aW9saW4lMjB0ZWFjaGVyfGVufDB8fHx8MTc1OTMyNzY2OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1598176456779-603dd04c9668?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHx2aW9saW4lMjB0ZWFjaGVyfGVufDB8fHx8MTc1OTMyNzY2OXww&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "violin teacher"
     },
     {
@@ -153,7 +153,7 @@
     },
     {
       "id": "event-3",
-      "imageUrl": "https://images.unsplash.com/photo-1633643333515-ef3727546bd4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxndWVzdCUyMGxlY3R1cmV8ZW58MHx8fHwxNzU5MzI3NjY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1633643333515-ef3727546bd4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxndWVzdCUyMGxlY3R1cmV8ZW58MHx8fHwxNzU5MzI3NjY4fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "guest lecture"
     },
     {
@@ -163,57 +163,57 @@
     },
     {
       "id": "past-event-2",
-      "imageUrl": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhdWRpZW5jZSUyMGNsYXBwaW5nfGVufDB8fHx8MTc1OTMyNzY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhdWRpZW5jZSUyMGNsYXBwaW5nfGVufDB8fHx8MTc1OTMyNzY2OHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "audience clapping"
     },
     {
       "id": "past-event-3",
-      "imageUrl": "https://images.unsplash.com/photo-1680920772018-b2906206e21e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdHVkZW50JTIwYmFuZHxlbnwwfHx8fDE3NTkzMjc2Njh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1680920772018-b2906206e21e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxzdHVkZW50JTIwYmFuZHxlbnwwfHx8fDE3NTkzMjc2Njh8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "student band"
     },
     {
       "id": "past-event-4",
-      "imageUrl": "https://images.unsplash.com/photo-1612225330812-01a9c6b355ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzb2xvJTIwdmlvbGlufGVufDB8fHx8MTc1OTMyNzY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1612225330812-01a9c6b355ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxzb2xvJTIwdmlvbGlufGVufDB8fHx8MTc1OTMyNzY2OHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "solo violin"
     },
     {
       "id": "past-event-5",
-      "imageUrl": "https://images.unsplash.com/photo-1748597603497-2860de84bf11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwaWFubyUyMHJlY2l0YWx8ZW58MHx8fHwxNzU5MzI3NjY5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1748597603497-2860de84bf11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwaWFubyUyMHJlY2l0YWx8ZW58MHx8fHwxNzU5MzI3NjY5fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "piano recital"
     },
     {
       "id": "past-event-6",
-      "imageUrl": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxncm91cCUyMHBob3RvfGVufDB8fHx8MTc1OTI4Njc2Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxncm91cCUyMHBob3RvfGVufDB8fHx8MTc1OTI4Njc2Mnww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "group photo"
     },
     {
       "id": "piano-course",
-      "imageUrl": "https://images.unsplash.com/photo-1663922736688-b0d82f210671?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGlhbm8lMjBrZXlzfGVufDB8fHx8MTc1OTMyNzY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1663922736688-b0d82f210671?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8cGlhbm8lMjBrZXlzfGVufDB8fHx8MTc1OTMyNzY2OHww&ixlibrb-4.1.0&q=80&w=1080",
       "imageHint": "piano keys"
     },
     {
       "id": "guitar-course",
-      "imageUrl": "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhY291c3RpYyUyMGd1aXRhcnxlbnwwfHx8fDE3NTkyNzgwNzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1510915361894-db8b60106cb1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhY291c3RpYyUyMGd1aXRhcnxlbnwwfHx8fDE3NTkyNzgwNzh8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "acoustic guitar"
     },
     {
       "id": "drums-course",
-      "imageUrl": "https://images.unsplash.com/photo-1608663003920-757dd225d6c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkcnVtJTIwa2l0fGVufDB8fHx8MTc1OTMyNzY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1608663003920-757dd225d6c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxkcnVtJTIwa2l0fGVufDB8fHx8MTc1OTMyNzY2OHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "drum kit"
     },
     {
       "id": "violin-course",
-      "imageUrl": "https://images.unsplash.com/photo-1705784034059-08e6554ba633?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx2aW9saW4lMjBpbnN0cnVtZW50fGVufDB8fHx8MTc1OTMyNzY2OHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1705784034059-08e6554ba633?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHx2aW9saW4lMjBpbnN0cnVtZW50fGVufDB8fHx8MTc1OTMyNzY2OHww&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "violin instrument"
     },
     {
       "id": "flute-course",
-      "imageUrl": "https://images.unsplash.com/photo-1569791832138-fbdd9a500384?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmbHV0ZSUyMHNpbHZlcnxlbnwwfHx8fDE3NTkzMjc2Njh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1569791832138-fbdd9a500384?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxmbHV0ZSUyMHNpbHZlcnxlbnwwfHx8fDE3NTkzMjc2Njh8MA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "flute silver"
     },
     {
       "id": "vocal-course",
-      "imageUrl": "https://images.unsplash.com/photo-1524621880920-5a6a9a3b239e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtaWNyb3Bob25lJTIwc3RhbmR8ZW58MHx8fHwxNzU5MzI3NjY4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1524621880920-5a6a9a3b239e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtaWNyb3Bob25lJTIwc3RhbmR8ZW58MHx8fHwxNzU5MzI3NjY4fDA&ixlib-rb-4.1.0&q=80&w=1080",
       "imageHint": "microphone stand"
     }
   ]
