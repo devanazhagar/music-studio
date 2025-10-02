@@ -100,7 +100,6 @@ function HeroSection() {
                             priority
                             className="w-full"
                         />
-                         <div className="absolute inset-0 bg-gradient-to-t from-background/50 to-transparent"></div>
                     </div>
                 </div>
             </AnimatedWrapper>
