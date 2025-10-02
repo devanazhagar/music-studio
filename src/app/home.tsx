@@ -29,7 +29,6 @@ import { AnimatedWrapper } from "@/components/animated-wrapper";
 import Autoplay from "embla-carousel-autoplay";
 import { cn } from "@/lib/utils";
 
-const heroImage = PlaceHolderImages.find((img) => img.id === 'hero-banner')!;
 const studentPerformanceImage = PlaceHolderImages.find((img) => img.id === 'student-performance')!;
 
 export default function HomePage() {
@@ -93,9 +92,9 @@ function HeroSection() {
                 <div className="mt-12">
                     <div className="relative mx-auto max-w-5xl rounded-2xl overflow-hidden shadow-2xl">
                          <Image
-                            src={heroImage.imageUrl}
-                            alt={heroImage.description}
-                            data-ai-hint={heroImage.imageHint}
+                            src="/girl-pic.png"
+                            alt="A woman wearing headphones listening to music."
+                            data-ai-hint="woman headphones"
                             width={1280}
                             height={720}
                             priority
@@ -308,5 +307,3 @@ function QuickEnrollmentSection() {
     </section>
   );
 }
-
-    
