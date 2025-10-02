@@ -96,8 +96,8 @@ function HeroSection() {
                             src={heroImage.imageUrl}
                             alt={heroImage.description}
                             data-ai-hint={heroImage.imageHint}
-                            width={1600}
-                            height={900}
+                            width={1280}
+                            height={720}
                             priority
                             className="w-full"
                         />
@@ -308,3 +308,5 @@ function QuickEnrollmentSection() {
     </section>
   );
 }
+
+    
