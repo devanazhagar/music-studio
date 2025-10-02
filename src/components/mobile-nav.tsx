@@ -18,7 +18,7 @@ export function MobileNav() {
     <div className="md:hidden">
       <Sheet open={isOpen} onOpenChange={setIsOpen}>
         <SheetTrigger asChild>
-          <Button variant="ghost" size="icon" className="text-white hover:text-white hover:bg-gray-800">
+          <Button variant="ghost" size="icon" className="text-foreground hover:bg-accent">
             <Menu className="h-6 w-6" />
             <span className="sr-only">Toggle navigation menu</span>
           </Button>

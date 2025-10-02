@@ -38,10 +38,10 @@ export function Header() {
       )}
     >
       <div className="container mx-auto px-4 mt-4">
-        <div className="flex h-16 items-center justify-between rounded-full bg-gray-900 px-6">
+        <div className="flex h-16 items-center justify-between rounded-full bg-primary/10 backdrop-blur-md px-6 shadow-lg">
           <Link href="/" className="flex items-center gap-2">
             <Music className="h-7 w-7 text-primary" />
-            <span className="font-headline text-xl font-bold text-white">
+            <span className="font-headline text-xl font-bold text-foreground">
               Harmony Hub
             </span>
           </Link>
@@ -51,8 +51,8 @@ export function Header() {
                 key={link.href}
                 href={link.href}
                 className={cn(
-                  "text-sm font-medium transition-colors hover:text-white",
-                  pathname === link.href ? "text-white" : "text-gray-400"
+                  "text-sm font-medium transition-colors hover:text-primary",
+                  pathname === link.href ? "text-primary font-semibold" : "text-muted-foreground"
                 )}
               >
                 {link.label}
@@ -62,7 +62,7 @@ export function Header() {
           <div className="flex items-center gap-4">
             <div className="hidden md:block">
               <BookTrialModal>
-                <Button variant="secondary" className="bg-white text-gray-900 hover:bg-gray-200 rounded-full">Book Trial</Button>
+                <Button variant="secondary" className="rounded-full">Book Trial</Button>
               </BookTrialModal>
             </div>
             <MobileNav />
