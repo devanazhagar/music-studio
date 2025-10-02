@@ -26,6 +26,7 @@ import { Check, Music, PlayCircle, Star } from "lucide-react";
 import { InstrumentIcon } from "@/components/instrument-icon";
 import { BookTrialModal } from "@/components/book-trial-modal";
 import { AnimatedWrapper } from "@/components/animated-wrapper";
+import { MusicVisualizer } from "@/components/music-visualizer";
 import Autoplay from "embla-carousel-autoplay";
 import { cn } from "@/lib/utils";
 
@@ -90,16 +91,8 @@ function HeroSection() {
             </AnimatedWrapper>
             <AnimatedWrapper delay={0.2}>
                 <div className="mt-12">
-                    <div className="relative mx-auto max-w-5xl rounded-2xl overflow-hidden shadow-2xl">
-                         <Image
-                            src="/girl-pic.png"
-                            alt="A woman wearing headphones listening to music."
-                            data-ai-hint="woman headphones"
-                            width={1280}
-                            height={720}
-                            priority
-                            className="w-full"
-                        />
+                    <div className="relative mx-auto max-w-5xl h-[600px] rounded-2xl overflow-hidden shadow-2xl bg-black">
+                        <MusicVisualizer />
                     </div>
                 </div>
             </AnimatedWrapper>
