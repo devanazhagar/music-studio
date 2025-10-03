@@ -130,19 +130,4 @@
       transform: translateX(-50%);
     }
   }
-
-  .btn-3d {
-    @apply transition-all duration-150;
-    box-shadow: 0 4px 0 0 hsl(var(--primary) / 0.5);
-  }
-
-  .btn-3d:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 0 0 hsl(var(--primary) / 0.5);
-  }
-
-  .btn-3d:active {
-    transform: translateY(2px);
-    box-shadow: 0 2px 0 0 hsl(var(--primary) / 0.5);
-  }
 }
