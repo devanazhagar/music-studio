@@ -69,7 +69,6 @@ function AnimatedInstrumentBoxes() {
 function HeroSection() {
   return (
     <section className="relative pt-16 pb-20 text-center md:pt-24 lg:pt-32">
-        <div className="absolute inset-0 dark:bg-hero-pattern-dark bg-hero-pattern -z-10" />
         <div className="container mx-auto px-4">
             <AnimatedWrapper>
                 <AnimatedInstrumentBoxes />
