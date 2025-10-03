@@ -81,6 +81,11 @@
     background-size: 100% 100%, 120% 120%, 120% 120%, 40% 40%, 40% 40%;
     background-repeat: no-repeat;
   }
+
+  .dark .hero-gradient-bg {
+    background-color: hsl(var(--background));
+    background-image: radial-gradient(ellipse 60% 80% at 50% 50%, hsl(var(--primary) / 0.2), transparent);
+  }
   
   .masonry-grid {
     column-gap: 1rem;
