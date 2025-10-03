@@ -48,7 +48,7 @@ export default function HomePage() {
 }
 
 function AnimatedInstrumentBoxes() {
-    const instruments = [...INSTRUMENTS, ...INSTRUMENTS]; // Duplicate for seamless loop
+    const instruments = [...INSTRUMENTS, ...INSTRUMENTS];
   return (
     <div className="w-full max-w-4xl mx-auto overflow-hidden relative mb-8">
       <div className="flex animate-scroll-loop">
@@ -68,7 +68,7 @@ function AnimatedInstrumentBoxes() {
 
 function HeroSection() {
   return (
-    <section className="relative pt-16 pb-20 text-center md:pt-24 lg:pt-32">
+    <section className="hero-gradient-bg relative pt-16 pb-20 text-center md:pt-24 lg:pt-32">
         <div className="container mx-auto px-4">
             <AnimatedWrapper>
                 <AnimatedInstrumentBoxes />
