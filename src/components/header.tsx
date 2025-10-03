@@ -10,6 +10,7 @@ import { MobileNav } from "./mobile-nav";
 import { BookTrialModal } from "./book-trial-modal";
 import { motion, useScroll, useMotionValueEvent } from "framer-motion";
 import { useState } from "react";
+import { ThemeToggle } from "./theme-toggle";
 
 export function Header() {
   const pathname = usePathname();
@@ -60,6 +61,7 @@ export function Header() {
             ))}
           </nav>
           <div className="flex items-center gap-4">
+            <ThemeToggle />
             <div className="hidden md:block">
               <BookTrialModal>
                 <Button variant="secondary" className="rounded-full">Book Trial</Button>
