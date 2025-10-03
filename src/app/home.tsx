@@ -55,13 +55,12 @@ function AnimatedInstrumentBoxes() {
         {instruments.map((instrument, index) => (
           <div
             key={index}
-            className="flex-shrink-0 w-24 h-24 mx-4 flex flex-col items-center justify-center bg-transparent rounded-xl"
+            className="flex-shrink-0 w-24 h-24 mx-4 flex flex-col items-center justify-center bg-card/50 dark:bg-card/20 border border-border rounded-xl backdrop-blur-sm"
           >
             <InstrumentIcon instrument={instrument.name} className="w-10 h-10 text-primary" />
           </div>
         ))}
       </div>
-       <div className="absolute inset-0 bg-gradient-to-r from-background via-transparent to-background"></div>
     </div>
   );
 }
@@ -71,7 +70,18 @@ function HeroSection() {
     <section className="hero-gradient-bg relative pt-16 pb-20 text-center md:pt-24 lg:pt-32">
         <div className="container mx-auto px-4">
             <AnimatedWrapper>
-                <AnimatedInstrumentBoxes />
+                <div className="w-full max-w-4xl mx-auto overflow-hidden relative mb-8">
+                    <div className="flex animate-scroll-loop">
+                        {[...INSTRUMENTS, ...INSTRUMENTS].map((instrument, index) => (
+                        <div
+                            key={index}
+                            className="flex-shrink-0 w-24 h-24 mx-4 flex flex-col items-center justify-center rounded-xl"
+                        >
+                            <InstrumentIcon instrument={instrument.name} className="w-10 h-10 text-primary" />
+                        </div>
+                        ))}
+                    </div>
+                </div>
                 <h1 className="font-headline text-4xl font-extrabold tracking-tight text-primary sm:text-5xl md:text-6xl lg:text-7xl">
                     Learn Your Favorite Instrument
                 </h1>
@@ -230,33 +240,31 @@ function TestimonialsSection() {
       <div className="container mx-auto px-4">
         <AnimatedWrapper>
           <div className="text-center mb-12">
-            <h2 className="font-headline text-3xl font-bold text-primary sm:text-4xl">Words from Our Community</h2>
-            <p className="mt-4 max-w-2xl mx-auto text-muted-foreground">See what students and parents are saying about us.</p>
+            <h2 className="font-headline text-3xl font-bold text-primary sm:text-4xl">What Our Students Say</h2>
+            <p className="mt-4 max-w-2xl mx-auto text-muted-foreground">Words from the heart of our musical family.</p>
           </div>
           <Carousel
             opts={{ align: "start", loop: true }}
-            plugins={[Autoplay({ delay: 5000 })]}
+            plugins={[Autoplay({ delay: 5000, stopOnInteraction: true })]}
             className="w-full max-w-4xl mx-auto"
           >
             <CarouselContent>
               {TESTIMONIALS.map((testimonial, index) => (
-                <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-                  <div className="p-1 h-full">
-                    <Card className="h-full flex flex-col">
-                      <CardContent className="pt-6 flex-grow flex flex-col justify-between">
-                        <div>
-                          <div className="flex text-yellow-400 mb-2">
-                            {[...Array(5)].map((_, i) => <Star key={i} className="w-4 h-4 fill-current" />)}
-                          </div>
-                          <p className="text-muted-foreground italic">"{testimonial.text}"</p>
-                        </div>
-                        <div className="flex items-center mt-4">
+                <CarouselItem key={index} className="md:basis-1/2">
+                  <div className="p-4">
+                    <Card className="h-full">
+                      <CardContent className="pt-6">
+                        <div className="flex items-start gap-4">
                           <Avatar>
-                            <AvatarImage src={testimonial.image.imageUrl} alt={testimonial.name} data-ai-hint={testimonial.image.imageHint} />
+                            <AvatarImage src={testimonial.image.imageUrl} alt={testimonial.name} />
                             <AvatarFallback>{testimonial.name.charAt(0)}</AvatarFallback>
                           </Avatar>
-                          <div className="ml-4">
-                            <p className="font-semibold">{testimonial.name}</p>
+                          <div className="flex-1">
+                            <div className="flex items-center mb-1">
+                              {[...Array(5)].map((_, i) => <Star key={i} className="w-4 h-4 text-yellow-400 fill-yellow-400" />)}
+                            </div>
+                            <p className="text-muted-foreground italic">"{testimonial.text}"</p>
+                            <p className="font-bold text-right mt-4">- {testimonial.name}</p>
                           </div>
                         </div>
                       </CardContent>
@@ -275,33 +283,43 @@ function TestimonialsSection() {
 }
 
 function QuickEnrollmentSection() {
-  return (
-    <section className="container mx-auto px-4">
-      <AnimatedWrapper>
-        <Card className="max-w-4xl mx-auto p-6 md:p-8 lg:p-12 bg-card">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div>
-              <h2 className="font-headline text-3xl font-bold text-primary sm:text-4xl">Start Your Journey Today!</h2>
-              <p className="mt-4 text-muted-foreground">Have questions or ready to enroll? Fill out this quick form and we'll get in touch with you.</p>
-            </div>
-            <form className="space-y-4">
-              <Input placeholder="Your Name" />
-              <Input type="tel" placeholder="Phone Number" />
-              <Select>
-                <SelectTrigger>
-                  <SelectValue placeholder="Select Instrument" />
-                </SelectTrigger>
-                <SelectContent>
-                  {INSTRUMENTS.map((instrument) => (
-                    <SelectItem key={instrument.name} value={instrument.name}>{instrument.name}</SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-              <Button type="submit" className="w-full">Request a Callback</Button>
-            </form>
-          </div>
-        </Card>
-      </AnimatedWrapper>
-    </section>
-  );
+    return (
+        <section className="container mx-auto px-4">
+            <AnimatedWrapper>
+                <Card className="overflow-hidden">
+                    <div className="grid md:grid-cols-2">
+                        <div className="p-8 md:p-12 bg-primary/10">
+                            <h2 className="font-headline text-3xl font-bold text-primary">Ready to Start Your Journey?</h2>
+                            <p className="mt-4 text-muted-foreground">Fill out our quick form to get started. Our team will get in touch with you to schedule your free trial class and answer any questions you have.</p>
+                             <ul className="mt-6 space-y-3">
+                                {[
+                                    "Free trial class included",
+                                    "Flexible batch timings",
+                                    "Expert, friendly instructors"
+                                ].map(item => (
+                                    <li key={item} className="flex items-center gap-3">
+                                        <Check className="w-5 h-5 text-primary" />
+                                        <span className="font-medium">{item}</span>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                        <div className="p-8 md:p-12">
+                            <form className="space-y-4">
+                                <Input placeholder="Your Name" />
+                                <Input type="email" placeholder="Your Email" />
+                                <Select>
+                                    <SelectTrigger><SelectValue placeholder="Select Instrument" /></SelectTrigger>
+                                    <SelectContent>
+                                        {INSTRUMENTS.map(i => <SelectItem key={i.name} value={i.name}>{i.name}</SelectItem>)}
+                                    </SelectContent>
+                                </Select>
+                                <Button type="submit" size="lg" className="w-full">Request a Callback</Button>
+                            </form>
+                        </div>
+                    </div>
+                </Card>
+            </AnimatedWrapper>
+        </section>
+    );
 }
