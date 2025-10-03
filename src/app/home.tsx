@@ -55,7 +55,7 @@ function AnimatedInstrumentBoxes() {
         {instruments.map((instrument, index) => (
           <div
             key={index}
-            className="flex-shrink-0 w-24 h-24 mx-4 flex flex-col items-center justify-center bg-card rounded-xl shadow-md"
+            className="flex-shrink-0 w-24 h-24 mx-4 flex flex-col items-center justify-center bg-transparent rounded-xl"
           >
             <InstrumentIcon instrument={instrument.name} className="w-10 h-10 text-primary" />
           </div>
