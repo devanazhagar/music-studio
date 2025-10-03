@@ -64,25 +64,16 @@
     @apply border-border;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply text-foreground;
+    background-color: hsl(var(--background));
+    background-image:
+      radial-gradient(ellipse 50% 50% at 50% 50%, transparent 70%, hsl(var(--background))),
+      linear-gradient(145deg, hsl(var(--primary) / 0.1), hsl(var(--background)) 50%),
+      linear-gradient(-145deg, hsl(var(--primary) / 0.1), hsl(var(--background)) 50%);
   }
 }
 
 @layer utilities {
-  .bg-hero-pattern {
-    background-image:
-      radial-gradient(ellipse 50% 50% at 50% 50%, transparent 70%, hsl(var(--background))),
-      linear-gradient(145deg, hsl(var(--primary) / 0.1), hsl(var(--background)) 50%),
-      linear-gradient(-145deg, hsl(var(--primary) / 0.1), hsl(var(--background)) 50%);
-  }
-  
-  .bg-hero-pattern-dark {
-    background-image:
-      radial-gradient(ellipse 50% 50% at 50% 50%, transparent 70%, hsl(var(--background))),
-      linear-gradient(145deg, hsl(var(--primary) / 0.1), hsl(var(--background)) 50%),
-      linear-gradient(-145deg, hsl(var(--primary) / 0.1), hsl(var(--background)) 50%);
-  }
-
   .masonry-grid {
     column-gap: 1rem;
     column-count: 1;
