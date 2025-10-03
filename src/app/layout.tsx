@@ -10,6 +10,11 @@ import { ThemeProvider } from '@/components/theme-provider';
 export const metadata: Metadata = {
   title: 'Harmony Hub - Your Music Academy',
   description: 'Harmony Hub Music Academy offers expert lessons in Piano, Guitar, Drums, Violin, and more in Chennai.',
+  icons: {
+    icon: '/favicon.png',
+    shortcut: '/favicon.png',
+    apple: '/favicon.png',
+  },
 };
 
 export default function RootLayout({
